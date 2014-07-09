@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Nathan Anderson</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+        <div id="timeline-embed"></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    var data = {
+      "timeline":
+        {
+          "headline":"Nathan's First Year In Review",
+          "type":"default",
+          "text":"<p>What a whirlwind! Let's get started</p>",
+          "asset": {
+          "media":"http://yourdomain_or_socialmedialink_goes_here.jpg",
+          "credit":"Credit Name Goes Here",
+          "caption":"Caption text goes here"
+        },
+        "date": [
+          {
+            "startDate":"2013,07,02",
+            "headline":"First Peek",
+            "text":"<p>Login to campfire to get a preview of how 37signals works.</p>"
+          },
+          {
+            "startDate":"2013,07,08",
+            "headline":"First Day",
+            "text":"<p>I have no idea what I'm doing.</p>",
+            "asset": {
+              "media":"<blockquote>OMG OMG OMG</blockquote>",
+            },
+          },
+          {
+            "startDate":"2013,07,10",
+            "headline":"First Commit",
+            "text":"<p>Fix tally to only spit out times for people with Timezones set: https://github.com/basecamp/tally/pull/2</p><p>It's a small thing, but I couldn't be more proud. Also, what if I mess it up?</p><p>Taking my first steps up the steep hill of the learning curve.</p>",
+            "asset":{
+              "media":"images/learning-curve.jpg",
+            },
+          },
+          {
+            "startDate":"2013,07,28",
+            "headline":"First Meetup",
+            "text":"<p>Wowowowowow!  So amazing to see everyone and visit the office! My wife laughs at me because I keep babbling about how cool it is there.</p>",
+          },
+          {
+            "startDate":"2013,08,28",
+            "headline":"First EOS Shift",
+            "text":"<p>I love the idea of EOS, and jump in. Chase is great, and has a fantastic knack for writing.  I'm very impressed with the whole Support Team!</p>"
+          },
+          {
+            "startDate":"2013,09,10",
+            "headline":"First Large Project",
+            "text":"<p><blockquote>\"Just add read-write splitting with makara to signal_id so we can run bcx in rw-ash\" - Taylor </blockquote></p><p>Thus starts a months-long dive into signal_id and some rails internals. Rabbit hole after rabbit hole quickly leads to discouragement and feelings like, \"Maybe I <strong>can't</strong> do this after all...\"</p><p>However, with support from the team, I persevere and get the project to the point where I need some real RoR wizardry. <a href=\"https://basecamp.com/1679267/projects/3118931/messages/17938816\">Full Story.</a></p>",
+            "asset":{
+              "media":"images/rabbit-holes.jpg",
+            }
+          },
+          {
+            "startDate":"2013,09,19",
+            "headline":"Nickel City Ruby",
+          },
+          {
+            "startDate":"2013,11,22",
+            "headline":"Easymon",
+            "text":"<p>Start consolidating all of our different monitoring controllers under one codebase</p><p>This is one of my favorite things I've built at Basecamp.  The other two are <a href=\"#11\">The Easy Button</a> and <a href=\"#6\">SignalId read/write splitting</a>.",
+          },
+          {
+            "startDate":"2014,01,02",
+            "headline":"Intermission Groundwork",
+            "text":"<p>Started digging into intermission, which ultimately leads to development of the \"Easy Button\"",
+          },
+          {
+            "startDate":"2014,01,22",
+            "headline":"Ops Meetup",
+            "text":"<p>So excited about the Ops Meetup!</p><p>I'm envisioning a ton of work getting done, large architectural decisions getting made.</p><p>Not.</p>",
+            "asset":{
+              "media":"http://i.imgur.com/QepR0QL.png",
+            }
+          },
+          {
+            "startDate":"2014,01,29",
+            "headline":"Easy Button",
+            "text":"<p>Add Intermission support to mysql_ip_role_swap.</p><p>mysql_ip_role_swap is already awesome, let's crank it up a notch by allowing the script to pause/unpause traffic on the affected db's application servers.</p><p>First tested (successfully!) the <a href=\"https://basecamp.com/1679267/projects/383/messages/21136555\">next day against Campfire</a>.",
+            "asset":{
+              "media":"http://www.jack-whelan.com/img/EasyButton.png"
+            }
+          },
+          {
+            "startDate":"2014,02,05",
+            "headline":"Become Basecamp!",
+            "text":"<p>A new era begins as the company formally recognizes the direction it's been heading for some time.</p>",
+            "asset":{
+              "media":"http://37signals.com/images/basecamplogo-sketched.png"
+            }
+          },
+          {
+            "startDate":"2014,03,31",
+            "headline":"Second Meetup",
+            "text":"<p>If anything, better than the first! Colder weather, but I'm no longer the new guy!</p>"
+          },
+          {
+            "startDate":"2014,04,03",
+            "headline":"Enable Multi-DC deploy for BCX",
+          },
+          {
+            "startDate":"2014,04,08",
+            "headline":"Mnemosyne",
+            "text":"<p>Start digging into mnemosyne backup issues.</p><p>This will drag on for a month. :(</p>"
+          },
+          {
+            "startDate":"2014,04,22",
+            "headline":"Railsconf!",
+            "text":"What a great time! Met many new ruby folk, and had a blast!"
+          },
+          {
+            "startDate":"2014,05,14",
+            "headline":"Launchpad Oauth",
+            "text":"<p>Move Launchpad Oauth Verification Tokens out of memcached and into mysql proper.</p><p>Now Launchpad is fully multi-dc ready.</p>",
+          },
+          {
+            "startDate":"2014,05,28",
+            "headline":"Easymon Fixes",
+            "text":"<p>Using Easymon for 6 months has shown a couple cracks. Time to start fixing them up and make it ready for an OSS release.</p>",
+          },
+          {
+            "startDate":"2014,06,26",
+            "headline":"Intermission Fixes",
+            "text":"<p>In our first run of mysql_ip_role_swap in a few months, we notice a couple lingering bugs in intermission and a couple low hanging fruit for mysql_ip_role_swap. These changes are successfully used in a failover of bcx by John and Matt.</p>"
+          },
+        ],
+        "era": [
+          {
+            "startDate":"2013,07,02",
+            "endDate":"2013,09,06",
+            "headline":"The Early Months",
+          },
+          {
+            "startDate":"2013,09,07",
+            "endDate":"2014,02,28",
+            "headline":"Finding My Stride",
+          },
+          {
+            "startDate":"2014,04,01",
+            "endDate":"2014,07,31",
+            "headline":"Dug Back In",
+          },
+        ]
+      }
+    }
+        var timeline_config = {
+            width:              '100%',
+            height:             '600',
+            source:             data,
+            embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+            start_at_end:       false,
+            hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+            font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+            debug:              false                            //OPTIONAL DEBUG TO CONSOLE        
+          }
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+    
+  </body>
+</html>
