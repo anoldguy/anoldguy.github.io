@@ -3,9 +3,9 @@ layout: default
 title: Nathan Anderson
 ---
 
-I love coding Ruby, and I'm learning Chef.  Solaris/Linux Admin from 1997, web development since 1998, hacking with Ruby/Rails since 2008.
+I love coding Ruby, and I'm learning Swift.  I'm a Solaris/Linux Admin from 1997, web development since 1998, and have been hacking with Ruby/Rails since 2008.
 
-This last year, I started working with the great people at [37signals](http://37signals.com/) ([\*wave\*](http://37signals.com/svn/writers/nathan)), and have enjoying digging deeper into rails and chef.
+This last year, I started working with the great people at [Basecamp](https://basecamp.com/) ([\*wave\*](https://signalvnoise.com/writers/nathan)), and have enjoying digging deeper into rails, chef, elasticsearch, mysql, docker, and so many other awesome projects!
 
 I also run the [OpenHack meetup in Louisville, KY](http://openhack.github.io/louisville/).
 
