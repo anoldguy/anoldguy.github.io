@@ -1,5 +1,5 @@
 name: Nathan Anderson
 markdown: kramdown
-pygments: true
+highlighter: pygments
 lsi: false
 safe: true
