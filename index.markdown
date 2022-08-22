@@ -7,7 +7,7 @@ I love coding Ruby, and I'm learning Swift.  I'm a Solaris/Linux Admin from 1997
 
 In 2013, I started working with the great people at [Basecamp](https://basecamp.com/) ([\*wave\*](https://signalvnoise.com/writers/nathan)), and have enjoying digging deeper into rails, chef, elasticsearch, mysql, docker, and so many other awesome projects!
 
-I also run the [OpenHack meetup in Louisville, KY](http://openhack.github.io/louisville/).
+I also ran the [OpenHack meetup in Louisville, KY](http://openhack.github.io/louisville/) for a short time.
 
 {% unless site.posts.size == 0 %}
 ### Blog Posts
